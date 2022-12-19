@@ -1,6 +1,8 @@
+require('dotenv').config()
 const express = require('express');
 const app = express()
 const routes = require('./routes/index')
+
 //const swaggerUi = require('swagger-ui-express');
 
 
